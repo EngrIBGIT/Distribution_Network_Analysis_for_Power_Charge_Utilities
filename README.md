@@ -1,6 +1,7 @@
 # Distribution_Network_Analysis_for_Power_Charge_Utilities
-Using python to perform Distribution Network Analysis. Working with popular Python Libraries such as Numpy, Pandas, Matplotlib, Seaborn and GeoPandas - For Distribution Network Geographics
+Using *python* to Perform Distribution Network Analysis on Power Charge Utilities. Working with popular Python Libraries such as Numpy, Pandas, Matplotlib, Seaborn and GeoPandas - For Distribution Network Geographics
 
+![](electrical_vehicle1.jpg)
 
 ## Key learning points(Learning Skills)
 Explore Exploratory Data Analysis
@@ -24,6 +25,8 @@ __Libraries:__
 PowerCharge Utilities is a prominent electric utility provider operating in a dynamic and evolving energy landscape. The company’s primary mission is to ensure the reliable delivery of electrical power to millions of customers across urban and suburban areas. PowerCharge Utilities has established itself as a key player in the energy sector, focusing on sustainability and adapting to emerging technologies.
 The energy sector has witnessed a significant transformation in recent years driven by environmental concerns, regulatory changes, and technological advancements. One of the most notable developments has been the rapid adoption of electric vehicles (EVs) as part of global efforts to reduce carbon emissions and combat climate change.
 
+![](high_l4.jpg)
+
 ## Business Overview/Problem:
 Power Charge Utilities encounters several critical challenges due to the growing adoption of electric vehicles:
 
@@ -40,21 +43,21 @@ Distribution Network Analysis in the energy industry refers to the process of st
 
 ## Top Five Reasons for the Project's Significance:
  
-- A. Customer Retention: Maintaining a reliable EV charging experience is essential for retaining existing customers who have embraced EVs.
-- B. Revenue Growth: Accommodating the growing demand for EV charging services opens new revenue streams and capitalizes on the expanding EV market.
-- C. Sustainability Goals: Supporting EVs aligns with the company's sustainability objectives, contributing to reduced greenhouse gas emissions.
-- D. Regulatory Compliance: Meeting regulatory standards for grid reliability and capacity planning is vital to avoid penalties and ensure operational excellence.
-- E. Technological Innovation: Embracing data analytics empowers PowerCharge Utilities to stay at the forefront of technological innovation in the energy sector.
+- _A. Customer Retention:_ Maintaining a reliable EV charging experience is essential for retaining existing customers who have embraced EVs.
+- _B. Revenue Growth:_ Accommodating the growing demand for EV charging services opens new revenue streams and capitalizes on the expanding EV market.
+- _C. Sustainability Goals:_ Supporting EVs aligns with the company's sustainability objectives, contributing to reduced greenhouse gas emissions.
+- _D. Regulatory Compliance:_ Meeting regulatory standards for grid reliability and capacity planning is vital to avoid penalties and ensure operational excellence.
+- _E. Technological Innovation:_ Embracing data analytics empowers PowerCharge Utilities to stay at the forefront of technological innovation in the energy sector.
 
 ## Aim of the Project:
 _The project aims to achieve the following objectives:_
-A. Assess Network Capacity: Conduct a comprehensive analysis of the distribution network's current capacity to handle increased load from EV charging stations
-B. Identify Bottlenecks: Identify potential bottlenecks and vulnerabilities within the distribution network that could hinder reliable electricity delivery to EV charging stations
-C. Optimize Network Upgrades: Develop a data-driven strategy for network upgrades that maximizes efficiency, minimizes costs, and ensures grid reliability.
+**A. Assess Network Capacity:** Conduct a comprehensive analysis of the distribution network's current capacity to handle increased load from EV charging stations
+**B. Identify Bottlenecks:** Identify potential bottlenecks and vulnerabilities within the distribution network that could hinder reliable electricity delivery to EV charging stations
+**C. Optimize Network Upgrades:** Develop a data-driven strategy for network upgrades that maximizes efficiency, minimizes costs, and ensures grid reliability.
 
 ## Data Description:
-__Distribution Network Analysis:__
-- _A. Electric Vehicle (EV) Distribution Data:_
+###__Distribution Network Analysis:__
+_A. Electric Vehicle (EV) Distribution Data:_
 - Timestamp: Date and time of data points.
 - Geographical Area: Location of each data point.
 - Customer Type: Categorization of customers (e.g., residential, commercial).
@@ -132,6 +135,8 @@ _5. Cost-Benefit-Analysis:_ Conduct a comprehensive cost benefit analysis to dif
 _6. Customer Engagemen:_ Enage with customers to undersatnd thier needs and expectations. Provide Clear communication about network upgrades and how they will enhance service relaibility and meet the growing demand for EV charging.
 
 _7. Continous Improvement:_ Continously monitor and assess the performance of the didtribution network. Gather feedback from the customers and other stakeholders and use this feedback to make urhter improvements and optimizations.
+
+![](EV_charging2.png)
 
 __By Following these steps, Power Charge Utilities can develop an effective optimization startegy to maintain the increased load demand from EV charging stations, ensure the relaibility and resilience of the ditribution network and meet the expectations of customers while all optimizing costs and ensuring regulatory compliance.__
                                                                                                                                                                                                                     
