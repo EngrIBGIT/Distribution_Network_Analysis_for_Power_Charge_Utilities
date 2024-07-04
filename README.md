@@ -2,14 +2,15 @@
 Using *python* to Perform Distribution Network Analysis on Power Charge Utilities. Working with popular Python Libraries such as Numpy, Pandas, Matplotlib, Seaborn and GeoPandas - For Distribution Network Geographics
 
 ![](electrical_vehicle1.jpg)
-
+## Project Concept:
+Using python to perform Distribution Network Analysis: Through working with the following Python libraries; Numpy, Pandas, Matplotlib, Seaborn, and Geopandas
 ## Key learning points(Learning Skills)
-Explore Exploratory Data Analysis
-Capacity Assessment
-Network Optimization
-Geographics Analysis & Visualization
-Data Transformation
-Reporting and Recommendations
+- Explore Exploratory Data Analysis
+- Capacity Assessment
+- Network Optimization
+- Geographics Analysis & Visualization
+- Data Transformation
+- Reporting and Recommendations
 
 ## Tech Stack:
 - Programming Language – Python
@@ -39,7 +40,7 @@ __C. Customer Satisfaction:__ EV owners expect reliable and convenient charging 
 __D. Cost Management:__ Balancing increased load demands and grid reliability comes at a significant cost. PowerCharge Utilities must optimize network investments to manage expenses effectively.
  
 ## Rationale for the Project:
-Distribution Network Analysis in the energy industry refers to the process of studying and evaluating the electrical distribution networks that deliver electricity from high-voltage transmission lines to end-users, such as homes, businesses, and industrial facilities. This analysis becomes even more critical with the rise of EVs, as it transforms the energy landscape. 
+Distribution Network Analysis in the energy industry refers to studying and evaluating the electrical distribution networks that deliver electricity from high-voltage transmission lines to end-users, such as homes, businesses, and industrial facilities. The view case is EV charging stations where customers come in to charge their vehicles. This analysis becomes even more critical with the rise of EVs, as it transforms the energy landscape. 
 
 ## Top Five Reasons for the Project's Significance:
  
@@ -47,7 +48,7 @@ Distribution Network Analysis in the energy industry refers to the process of st
 - _B. Revenue Growth:_ Accommodating the growing demand for EV charging services opens new revenue streams and capitalizes on the expanding EV market.
 - _C. Sustainability Goals:_ Supporting EVs aligns with the company's sustainability objectives, contributing to reduced greenhouse gas emissions.
 - _D. Regulatory Compliance:_ Meeting regulatory standards for grid reliability and capacity planning is vital to avoid penalties and ensure operational excellence.
-- _E. Technological Innovation:_ Embracing data analytics empowers PowerCharge Utilities to stay at the forefront of technological innovation in the energy sector.
+- _E. Technological Innovation:_ Embracing data analytics empowers, PowerCharge Utilities to stay at the forefront of technological innovation in the energy sector.
 
 ## Aim of the Project:
 _The project aims to achieve the following objectives:_
@@ -56,29 +57,45 @@ _The project aims to achieve the following objectives:_
 **C. Optimize Network Upgrades:** Develop a data-driven strategy for network upgrades that maximizes efficiency, minimizes costs, and ensures grid reliability.
 
 ## Data Description:
-###__Distribution Network Analysis:__
+ __The Data set for the Distribution Network Analysis:__
+
 _A. Electric Vehicle (EV) Distribution Data:_
-- Timestamp: Date and time of data points.
-- Geographical Area: Location of each data point.
-- Customer Type: Categorization of customers (e.g., residential, commercial).
-- Electricity Consumption (kWh): Amount of electricity consumed.
-- EV Charging Station Location: Latitude and longitude of charging stations.
-- EV Charging Station Specifications: Details about charging stations.
-- EV Type: Type of electric vehicles.
-- Charging Habit: Charging behavior (e.g., daily, weekly).
-- Number of EVs: Count of electric vehicles.
+- __Timestamp__: Date and time of data points.
+- __Geographical Area__: Location of each data point.
+- __Customer Type__: Categorization of customers (e.g., residential, commercial).
+- __Electricity Consumption (kWh)__: Amount of electricity consumed.
+- __EV Charging Station Location__: Latitude and longitude of charging stations.
+- __EV Charging Station Specifications__: Details about charging stations.
+- __EV Type__: Type of electric vehicle.
+- __Charging Habit__: Charging behavior (e.g., daily, weekly).
+- __Number of EVs__: Count of electric vehicles.
  
 _B. Geospatial Data (Distribution Network Geographies):_ 
-- Substation ID: Unique identifier for distribution substations. (Primary Key)
-- Substation Location: Geographic coordinates of substations.
-- Transmission Line Capacity (MW): Capacity of transmission lines.
+- __Substation ID__: Unique identifier for distribution substations. (Primary Key)
+- __Substation Location__: Geographic coordinates of substations.
+- __Transmission Line Capacity (MW)__: Capacity of transmission lines.
  
 _C. Weather Data:_
-- Timestamp: Date and time of weather data
--  Temperature (°C): Ambient temperature.
-- Precipitation (mm): Precipitation amount (rainfall or snowfall).
-- Weather Conditions: Categorization of weather conditions (e.g., Clear, Rainy).
+- __Timestamp__: Date and time of weather data
+- __Temperature(°C)__: Ambient temperature.
+- __Precipitation (mm)__: Precipitation amount (rainfall or snowfall).
+- __Weather Conditions__: Categorization of weather conditions (e.g., Clear, Rainy).
 
+![](Data_V.PNG)
+
+## Structure of Data:
+To understand the structure of the data, have an idea of the number of rows in the data, data types of each column, checking for missing values, the statistical summary of the numerical columns, and to know the categorical data:
+The structure of data will be achieved through; .info(), .describe()
+
+- **Geospatial Data (Distribution Network Geographies):**
+![](Data_S1.PNG):   
+
+- **Electric Vehicle (EV) Distribution Data Structure:**
+![](Data_S2.PNG):
+
+- **Weather Data Data Structure:**
+- ![](Data_S3.PNG)
+       
 ## Project Scope:
 _A. Exploratory Data Analysis:_ Conduct EDA to gain insights into electricity consumption patterns and network performance. 
  
@@ -94,8 +111,38 @@ _F. Data Analysis:_ Analyze data to understand pattern in order to generate insi
  
 _G. Data Visualization:_ Create visual representations to communicate insights effectively. Interpretation and Insight Generation: Extract meaningful insights and interpret the results.
 
+## ANALYSIS:
+### Exploratory Data Analysis
+Deals with both Univariate (Single data point) and Bivariate(Two Data Point) Data Analysis:
+
+#### Univariate Data Analysis:
+
+- __Visualize the distribution of electricity Consumption:__
+  Analysis Distribution of Electricity consumption, EV types, Charging habits,and Customer type.
+![](UniV_1.PNG)
+
+![](UniV_1a.PNG)
+
+##### From the Above subplots we can see the following from the visuals:
+
+- Distribution consumption is centered around 500 kWh with instances of higher and lower consumptions
+- Most Common Distribution of EV types is the Electric Scooter with a count of 200 numbers followed by Electric - - Cars with 150 numbers and finally Electric Bikes with about 120 numbers
+- Most Customers charging Habit is Daily, followed by Occasionally and weekly
+- Most Customers are Commercial Followed by Residential with Industrial being the least
+
+
+#### Bivariate Data Analysis:
+Using geospatial data to visualize locations and EV Charging Stations.
+Analyze capacity of transmission lines.
+
+![](Biv_1.PNG)
+
+![](Biv_1a.PNG)
+
+- From the above map, The Stations seem are properly distributed throughout North America
+
 ### Observations:
-There seems not to be any correlation between betwen the plot values:abs
+There seems not to be any correlation between betwen the plot values:
 - For Electricity Vs Temperature there is no clear relationship as the data points are all scattered.
 - Same Applies for Electricity Vs Precipitation as the data points are also scattered.
 
@@ -115,8 +162,7 @@ _d. Geospatial Distribution:_ The spatial distribution od substations and EV cha
 
 _e. Geospatial Distribution:_ The EV charging station seems to be far from its corresponding substation
 
-_f. Network Capacity:_ Some substations have high Consumption_to_Capacity_Ratio, indicating potentialbottlenecks and overloads in the network. There is also no correlation with the number of EVs per station and the Consumption_to_Capacity_Ratio, this shows that Number of EVs is not a factor for overload.
-                                                                                                                                                                     
+_f. Network Capacity:_ Some substations have high Consumption_to_Capacity_Ratio, indicating potentialbottlenecks and overloads in the network. There is also no correlation with the number of EVs per station and the Consumption_to_Capacity_Ratio, this shows that Number of EVs is not a factor for overload.                                               
 _g. Weather Correlation:_ The correlation between weather conditions (temperature and precipitation) is weak inthe current dataset, suggesting that other factors might be more influencial in affecting electricity consumption
 
 
