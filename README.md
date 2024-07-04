@@ -1,9 +1,10 @@
 # Distribution_Network_Analysis_for_Power_Charge_Utilities
+
+## Project Concept:
 Using *python* to Perform Distribution Network Analysis on Power Charge Utilities. Working with popular Python Libraries such as Numpy, Pandas, Matplotlib, Seaborn and GeoPandas - For Distribution Network Geographics
 
 ![](electrical_vehicle1.jpg)
-## Project Concept:
-Using python to perform Distribution Network Analysis: Through working with the following Python libraries; Numpy, Pandas, Matplotlib, Seaborn, and Geopandas
+
 ## Key learning points(Learning Skills)
 - Explore Exploratory Data Analysis
 - Capacity Assessment
@@ -88,10 +89,10 @@ To understand the structure of the data, have an idea of the number of rows in t
 The structure of data will be achieved through; .info(), .describe()
 
 - **Geospatial Data (Distribution Network Geographies):**
-![](Data_S1.PNG):   
+- ![](Data_S1.PNG):   
 
 - **Electric Vehicle (EV) Distribution Data Structure:**
-![](Data_S2.PNG):
+- ![](Data_S2.PNG):
 
 - **Weather Data Data Structure:**
 - ![](Data_S3.PNG)
