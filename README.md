@@ -151,6 +151,10 @@ Based on the current temperature and precipitation factors, they do not have cor
 It is still important to consider temperature and precipitation which are weather data for network analysis as extreme weather conditions can have impact on distribution network and its component, potentially leading to outages and other issues. 
 
 
+## The Below Link is The code showing the analysis and visualizations
+
+   https://github.com/EngrIBGIT/Distribution_Network_Analysis_for_Power_Charge_Utilities/blob/main/Distribution_Network_Analysis.ipynb
+
 ## INSIGHTS:
 
 _a. Electricity Consumption:_ The Electricity consumption is mostly centered around 500kWh, with with instances of higher and lower consumptions. This indicates varied demand at different times and locations.
